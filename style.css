@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.meio {
+    background-color: #7D5B8C;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 15px 1px #7D5B8C;
+}
+
+.meio h1 {
+    font-size: 3rem;
+}
+
+#numTxt {
+    background-color: #fff;
+    border-style: none;
+    width: 800px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+
+
+#btn-calc {
+    width: 300px;
+    height: 40px;
+    border-style: none;
+    background-color: #432a4e;
+    border-radius: 20px;
+    color: #fff;
+    font-size: large;
+}
+
+#btn-calc:hover {
+    width: 300px;
+    height: 40px;
+    border-style: none;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #432a4e;
+    font-size: large;
+    box-shadow: 0px 0px 2px 1px #fff;
+}
+
+.result h1, span {
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.btn-reset {
+    margin-top: 25px;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #432a4e;
+    font-size: large;
+}
+
+.btn-reset:hover {
+    margin-top: 25px;
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    background-color: #432a4e;
+    border-radius: 20px;
+    color: #fff;
+    font-size: large;
+}
